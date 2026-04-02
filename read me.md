@@ -10,7 +10,8 @@ This project is about facial expression recognition using a Deep Convolutional N
 ## Files
 - dcnn_22_on_ck+_dataset.py  
 - dcnn_22_on_fer2013_dataset.py  
-- preprocessing.py  
+- preprocessing.py
+- Results of dcnn 22 on fer2013 datset
 
 ## Requirements
 - tensorflow  
