@@ -1,18 +1,17 @@
 # DCNN 22 Model for Facial Expression Recognition in Autistic Individuals
 
-## Description
-This project is about facial expression recognition using a Deep Convolutional Neural Network (DCNN 22). The model is trained and evaluated on the **CK+** and **FER2013** datasets, classifying emotions into seven categories:  
+This project implements facial expression recognition using a Deep Convolutional Neural Network (DCNN 22).
+The model classifies facial expressions into seven categories:
 
-- Angry  
-- Disgust  
-- Fear  
-- Happy  
-- Sad  
-- Surprise  
-- Neutral  
+Angry
+Disgust
+Fear
+Happy
+Sad
+Surprise
+Neutral
 
-The project also includes **image preprocessing**, **face detection**, and **facial landmark detection** for improved accuracy.
-
+The pipeline also includes image preprocessing, face detection, and facial landmark detection to improve classification accuracy.
 ---
 
 ## 📊 Dataset Information
@@ -26,7 +25,25 @@ The project also includes **image preprocessing**, **face detection**, and **fac
 - Source: Official dataset  
 - URL: [http://www.jeffcohn.net/Resources/](http://www.jeffcohn.net/Resources/)  
 - Format: Image sequences labeled with facial expressions
-- 
+
+### Algorithms and Code Used
+--Algorithms
+-Image Preprocessing
+-Resize images to uniform dimensions
+-Normalize pixel values to [0, 1]
+-Face detection using dlib HOG-based detector
+-Facial landmark detection (68-point landmarks) for alignment
+-Deep Convolutional Neural Network (DCNN 22)
+-22-layer CNN architecture
+-Multiple convolutional and pooling layers
+-ReLU activations and batch normalization
+-Fully connected layers for classification
+-Softmax output for 7 emotion classes
+Evaluation Metrics
+--Accuracy
+-Precision
+-Recall
+-F1-score
 ## 💻 Code Files
 
 - `dcnn_ckplus.py` → Training and evaluation on CK+ dataset  
@@ -47,10 +64,12 @@ pip install -r requirements.txt
 3. Run python files  
 
 ## Methodology
-- Image preprocessing (resize, normalization)  
-- Face detection using dlib  
-- Facial landmark detection  
-- Deep CNN model for classification  
+Load dataset images
+Preprocess images (resize, normalize, grayscale conversion if needed)
+Detect faces and extract landmarks for alignment
+Train the DCNN 22 model on processed images
+Evaluate model using standard metrics
+Optionally, save trained models for inference 
 
 ## Evaluation
 - Accuracy  
@@ -64,9 +83,10 @@ Download datasets
 Set dataset paths
 Run scripts
 
-## License
-This project is for academic and research purposes only. Dataset licenses belong to the original providers.
-
+## License & Contribution Guidelines
+License: This project is for academic and research purposes only.
+Dataset licenses belong to the original providers.
+Contributions: Pull requests and suggestions for improvements are welcome for research purposes.
 - ## Author
 Konain Zehra
 
