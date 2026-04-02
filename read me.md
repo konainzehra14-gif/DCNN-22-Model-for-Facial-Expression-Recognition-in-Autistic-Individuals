@@ -26,24 +26,6 @@ The pipeline also includes image preprocessing, face detection, and facial landm
 - URL: [http://www.jeffcohn.net/Resources/](http://www.jeffcohn.net/Resources/)  
 - Format: Image sequences labeled with facial expressions
 
-### Algorithms and Code Used
---Algorithms
--Image Preprocessing
--Resize images to uniform dimensions
--Normalize pixel values to [0, 1]
--Face detection using dlib HOG-based detector
--Facial landmark detection (68-point landmarks) for alignment
--Deep Convolutional Neural Network (DCNN 22)
--22-layer CNN architecture
--Multiple convolutional and pooling layers
--ReLU activations and batch normalization
--Fully connected layers for classification
--Softmax output for 7 emotion classes
-Evaluation Metrics
---Accuracy
--Precision
--Recall
--F1-score
 ## 💻 Code Files
 
 - `dcnn_ckplus.py` → Training and evaluation on CK+ dataset  
