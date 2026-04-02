@@ -42,5 +42,3 @@ This project is about facial expression recognition using a Deep Convolutional N
 - ## Author
 Konain Zehra
 
-## Author
-Your Name
