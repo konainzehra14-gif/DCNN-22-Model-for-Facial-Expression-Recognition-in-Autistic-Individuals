@@ -1,7 +1,4 @@
 
-
-
-
 mapper = {
     0: "happy",
     1: "sad",
