@@ -25,10 +25,8 @@ The project also includes **image preprocessing**, **face detection**, and **fac
 ### 2. CK+ Dataset (Extended Cohn-Kanade)
 - Source: Official dataset  
 - URL: [http://www.jeffcohn.net/Resources/](http://www.jeffcohn.net/Resources/)  
-- Format: Image sequences labeled with facial expressions  
-
----
-
+- Format: Image sequences labeled with facial expressions
+- 
 ## 💻 Code Files
 
 - `dcnn_ckplus.py` → Training and evaluation on CK+ dataset  
@@ -59,6 +57,16 @@ pip install -r requirements.txt
 - Precision  
 - Recall  
 - F1-score
+
+## Reproducibility
+Install libraries (pip install -r requirements.txt)
+Download datasets
+Set dataset paths
+Run scripts
+
+## License
+This project is for academic and research purposes only. Dataset licenses belong to the original providers.
+
 - ## Author
 Konain Zehra
 
