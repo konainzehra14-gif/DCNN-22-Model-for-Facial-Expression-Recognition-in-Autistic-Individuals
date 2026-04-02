@@ -1,28 +1,47 @@
 # DCNN 22 Model for Facial Expression Recognition in Autistic Individuals
 
 ## Description
-This project is about facial expression recognition using a Deep Convolutional Neural Network (DCNN 22). The model is trained on CK+ and FER2013 datasets to classify human emotions.
+This project is about facial expression recognition using a Deep Convolutional Neural Network (DCNN 22). The model is trained and evaluated on the **CK+** and **FER2013** datasets, classifying emotions into seven categories:  
 
-## Datasets
-- FER2013: https://www.kaggle.com/datasets/msambare/fer2013  
-- CK+: http://www.jeffcohn.net/Resources/  
+- Angry  
+- Disgust  
+- Fear  
+- Happy  
+- Sad  
+- Surprise  
+- Neutral  
 
-## Files
-- dcnn_22_on_ck+_dataset.py  
-- dcnn_22_on_fer2013_dataset.py  
-- preprocessing.py
-- Results of dcnn 22 on fer2013 datset
+The project also includes **image preprocessing**, **face detection**, and **facial landmark detection** for improved accuracy.
 
-## Requirements
-- tensorflow  
-- keras  
-- opencv-python  
-- dlib  
-- numpy  
-- pandas  
-- matplotlib  
-- seaborn  
-- scikit-learn  
+---
+
+## 📊 Dataset Information
+
+### 1. FER2013 Dataset
+- Source: Kaggle  
+- URL: [https://www.kaggle.com/datasets/msambare/fer2013](https://www.kaggle.com/datasets/msambare/fer2013)  
+- Format: 48x48 grayscale images stored as pixel values in CSV  
+
+### 2. CK+ Dataset (Extended Cohn-Kanade)
+- Source: Official dataset  
+- URL: [http://www.jeffcohn.net/Resources/](http://www.jeffcohn.net/Resources/)  
+- Format: Image sequences labeled with facial expressions  
+
+---
+
+## 💻 Code Files
+
+- `dcnn_ckplus.py` → Training and evaluation on CK+ dataset  
+- `dcnn_fer2013.py` → Training and evaluation on FER2013 dataset  
+- `preprocessing.py` → Image preprocessing, face detection, and landmark extraction   
+---
+
+## ⚙️ Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
 
 ## How to Run
 1. Download datasets from above links  
