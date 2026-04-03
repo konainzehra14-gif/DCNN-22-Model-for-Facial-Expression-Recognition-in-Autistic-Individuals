@@ -41,7 +41,7 @@ Install dependencies using:
 pip install -r requirements.txt
 ---
 
-How to run
+## How to run
 
 Follow the steps below to reproduce the experiments.
 
@@ -68,7 +68,10 @@ python preprocessing.py
 python dcnn22_fer2013.py
 # or
 python dcnn22_ck+.py
-Methodology
+---
+
+
+## Methodology
 
 The proposed system implements a Deep Convolutional Neural Network (DCNN-22) for Facial Expression Recognition (FER).
 The workflow consists of the following stages:
@@ -80,7 +83,7 @@ Emotion Classification: The trained model predicts facial emotion classes (happi
 
 The architecture consists of multiple convolutional layers, pooling layers, and fully connected layers to enable automatic feature learning from facial images.
 
-Evaluation
+## Evaluation
 
 The DCNN-22 model is evaluated using two benchmark facial expression datasets:
 
