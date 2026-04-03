@@ -44,21 +44,21 @@ pip install -r requirements.txt
 
 Follow the steps below to reproduce the experiments.
 
-##### Clone the Repository
+#### Clone the Repository
 git clone https://github.com/konainzehra14-gif/DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
 cd DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
-### Install Required Libraries
+#### Install Required Libraries
 pip install -r requirements.txt
 ### Prepare Dataset
 Download the datasets:
-### FER2013 Dataset: 
+#### FER2013 Dataset: 
 https://www.kaggle.com/datasets/msambare/fer2013
-### CK+ Dataset: 
+#### CK+ Dataset: 
 http://www.jeffcohn.net/resources/
 Place the datasets in the directories of dataset
-### Run Preprocessing
+#### Run Preprocessing
 python preprocessing.py
-### Train the Model
+#### Train the Model
 python dcnn22_fer2013.py
 python dcnn22_ck+.py
 
@@ -70,13 +70,13 @@ python dcnn22_ck+.py
 The proposed system implements a Deep Convolutional Neural Network (DCNN-22) for Facial Expression Recognition (FER).
 The workflow consists of the following stages:
 
-### Data Preprocessing:
+#### Data Preprocessing:
 Facial images from the FER2013 and CK+ datasets are preprocessed, including resizing, normalization, and dataset preparation.
-### Feature Extraction: 
+#### Feature Extraction: 
 DCNN-22 extracts hierarchical features from facial images.
-### Model Training: 
+#### Model Training: 
 The DCNN model is trained on labeled facial expression images to learn discriminative features for classification.
-### Emotion Classification: 
+#### Emotion Classification: 
 The trained model predicts facial emotion classes (happiness, sadness, anger, surprise, fear, disgust, and neutral).
 
 The architecture consists of multiple convolutional layers, pooling layers, and fully connected layers to enable automatic feature learning from facial images.
@@ -84,15 +84,15 @@ The architecture consists of multiple convolutional layers, pooling layers, and 
 ## Evaluation
 
 The DCNN-22 model is evaluated using two benchmark facial expression datasets:
-FER2013 Dataset
-CK+ Dataset
+1. FER2013 Dataset
+2. CK+ Dataset
 
 Performance metrics include:
-Accuracy
-Precision
-Recall
-F1 Score
-Confusion Matrix
+1. Accuracy
+2. Precision
+3. Recall
+4. F1 Score
+5. Confusion Matrix
 
 Datasets are divided into training and testing sets to measure generalization performance. Experimental results demonstrate that the DCNN-22 model effectively learns facial emotion representations and achieves competitive performance on both datasets. 
 
@@ -102,16 +102,18 @@ Datasets are divided into training and testing sets to measure generalization pe
 
 To ensure reproducibility:
 
-The full source code is publicly available in this repository.
-Dataset sources are provided with download links.
-Preprocessing steps and training scripts are included.
-Model parameters and architecture are defined in the code.
+- The full source code is publicly available in this repository.
+- Dataset sources are provided with download links.
+- Preprocessing steps and training scripts are included.
+- Model parameters and architecture are defined in the code.
 
 Researchers can reproduce the experiments by following the instructions provided in the "How to run" section.
 
 ## License & Contribution Guidelines
-License: This project is for academic and research purposes only. Dataset licenses belong to the original providers.
-Contributions: Pull requests and suggestions for improvements are welcome for research purposes.
+- #### License:
+- This project is for academic and research purposes only. Dataset licenses belong to the original providers.
+- #### Contributions:
+- Pull requests and suggestions for improvements are welcome for research purposes.
 
 ## Author
 Konain Zehra
