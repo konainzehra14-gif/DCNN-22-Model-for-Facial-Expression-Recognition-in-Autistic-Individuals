@@ -35,6 +35,7 @@ Neutral
 ## ⚙️ Requirements
 
 Install dependencies using:
+
 pip install -r requirements.txt
 
 ---
@@ -43,21 +44,21 @@ pip install -r requirements.txt
 
 Follow the steps below to reproduce the experiments.
 
-# Clone the Repository
+### Clone the Repository
 git clone https://github.com/konainzehra14-gif/DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
 cd DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
-#  Install Required Libraries
+### Install Required Libraries
 pip install -r requirements.txt
-# Prepare Dataset
+### Prepare Dataset
 Download the datasets:
-# FER2013 Dataset: 
+### FER2013 Dataset: 
 https://www.kaggle.com/datasets/msambare/fer2013
-# CK+ Dataset: 
+### CK+ Dataset: 
 http://www.jeffcohn.net/resources/
 Place the datasets in the directories of dataset
-# Run Preprocessing
+### Run Preprocessing
 python preprocessing.py
-# Train the Model
+### Train the Model
 python dcnn22_fer2013.py
 python dcnn22_ck+.py
 
@@ -69,13 +70,13 @@ python dcnn22_ck+.py
 The proposed system implements a Deep Convolutional Neural Network (DCNN-22) for Facial Expression Recognition (FER).
 The workflow consists of the following stages:
 
-# Data Preprocessing:
+### Data Preprocessing:
 Facial images from the FER2013 and CK+ datasets are preprocessed, including resizing, normalization, and dataset preparation.
-# Feature Extraction: 
+### Feature Extraction: 
 DCNN-22 extracts hierarchical features from facial images.
-# Model Training: 
+### Model Training: 
 The DCNN model is trained on labeled facial expression images to learn discriminative features for classification.
-# Emotion Classification: 
+### Emotion Classification: 
 The trained model predicts facial emotion classes (happiness, sadness, anger, surprise, fear, disgust, and neutral).
 
 The architecture consists of multiple convolutional layers, pooling layers, and fully connected layers to enable automatic feature learning from facial images.
