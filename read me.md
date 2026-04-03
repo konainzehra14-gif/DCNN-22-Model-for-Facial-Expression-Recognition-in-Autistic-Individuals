@@ -39,36 +39,102 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+---
+## How to run
 
-**## How to Run**
-1. Download datasets from above links  
-2. Set dataset path in code  
-3. Run python files  
+Follow the steps below to reproduce the experiments.
+
+### 1. Clone the Repository
+git clone https://github.com/konainzehra14-gif/DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
+
+cd DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
+
+### 2. Install Required Libraries
+pip install -r requirements.txt
+
+### 3. Prepare Dataset
+Download the datasets:
+
+FER2013 Dataset:
+https://www.kaggle.com/datasets/msambare/fer2013
+
+CK+ Dataset:
+http://www.jeffcohn.net/resources/
+
+Place the datasets in the following directory structure:
+
+dataset/
+   FER2013/
+   CK+/
+
+### 4. Run Preprocessing
+python preprocessing.py
+
+### 5. Train the Model
+python dcnn22_fer2013.py
+
+or
+
+python dcnn22_ck+.py 
 
 ## Methodology
-Load dataset images
-Preprocess images (resize, normalize, grayscale conversion if needed)
-Detect faces and extract landmarks for alignment
-Train the DCNN 22 model on processed images
-Evaluate model using standard metrics
-Optionally, save trained models for inference 
+
+The proposed system implements a Deep Convolutional Neural Network (DCNN-22) for Facial Expression Recognition (FER). The model is designed to classify facial emotions from grayscale facial images.
+
+The workflow consists of the following stages:
+
+1. Data Preprocessing
+Facial images from the FER2013 and CK+ datasets are preprocessed. This includes resizing, normalization, and dataset preparation.
+
+2. Feature Extraction
+A deep convolutional architecture (DCNN-22) is used to extract hierarchical features from facial images.
+
+3. Model Training
+The DCNN model is trained using labeled facial expression images. The training process learns discriminative features for emotion classification.
+
+4. Emotion Classification
+The trained model predicts facial emotion classes such as happiness, sadness, anger, surprise, fear, disgust, and neutral.
+
+The architecture consists of multiple convolutional layers, pooling layers, and fully connected layers that enable automatic feature learning from facial images.
+---
 
 ## Evaluation
-- Accuracy  
-- Precision  
-- Recall  
-- F1-score
+
+The proposed DCNN-22 model is evaluated using two benchmark facial expression datasets:
+
+1. FER2013 Dataset
+2. CK+ Dataset
+
+Performance is evaluated using standard classification metrics:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
+The datasets are divided into training and testing sets to measure the generalization performance of the model.
+
+Experimental results demonstrate that the DCNN-22 model effectively learns facial emotion representations and achieves competitive performance on both datasets.
+---
 
 ## Reproducibility
-Install libraries (pip install -r requirements.txt)
-Download datasets
-Set dataset paths
-Run scripts
+
+To ensure reproducibility of the results:
+
+- The full source code is publicly available in this repository.
+- Dataset sources are provided with download links.
+- Preprocessing steps and training scripts are included.
+- Model parameters and architecture are defined in the code.
+
+Researchers can reproduce the experiments by following the instructions provided in the "How to Run" section.
+---
 
 ## License & Contribution Guidelines
 License: This project is for academic and research purposes only.
 Dataset licenses belong to the original providers.
 Contributions: Pull requests and suggestions for improvements are welcome for research purposes.
+
 - ## Author
 Konain Zehra
 
