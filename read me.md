@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 Follow the steps below to reproduce the experiments.
 
-#### Clone the Repository
+##### Clone the Repository
 git clone https://github.com/konainzehra14-gif/DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
 cd DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
 ### Install Required Libraries
