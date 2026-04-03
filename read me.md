@@ -55,7 +55,6 @@ Download the datasets:
 https://www.kaggle.com/datasets/msambare/fer2013
 - #### CK+ Dataset: 
 http://www.jeffcohn.net/resources/
-Place the datasets in the directories of dataset
 #### Run Preprocessing
 python preprocessing.py
 #### Train the Model
