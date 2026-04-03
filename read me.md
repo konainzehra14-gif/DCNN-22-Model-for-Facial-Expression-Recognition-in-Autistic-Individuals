@@ -3,13 +3,13 @@
 This project implements facial expression recognition using a Deep Convolutional Neural Network (DCNN 22).
 The model classifies facial expressions into seven categories:
 
-Angry
-Disgust
-Fear
-Happy
-Sad
-Surprise
-Neutral
+1. Angry
+2. Disgust
+3. Fear
+4. Happy
+5. Sad
+6. Surprise
+7. Neutral
 
 ---
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 Follow the steps below to reproduce the experiments.
 
-### Clone the Repository
+#### Clone the Repository
 git clone https://github.com/konainzehra14-gif/DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
 cd DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
 ### Install Required Libraries
