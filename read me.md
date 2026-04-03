@@ -45,22 +45,22 @@ pip install -r requirements.txt
 Follow the steps below to reproduce the experiments.
 
 #### Clone the Repository
-git clone https://github.com/konainzehra14-gif/DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
-cd DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
+- git clone https://github.com/konainzehra14-gif/DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
+- cd DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
 #### Install Required Libraries
-pip install -r requirements.txt
-### Prepare Dataset
+- pip install -r requirements.txt
+#### Prepare Dataset
 Download the datasets:
-#### FER2013 Dataset: 
+- #### FER2013 Dataset: 
 https://www.kaggle.com/datasets/msambare/fer2013
-#### CK+ Dataset: 
+- #### CK+ Dataset: 
 http://www.jeffcohn.net/resources/
 Place the datasets in the directories of dataset
 #### Run Preprocessing
 python preprocessing.py
 #### Train the Model
-python dcnn22_fer2013.py
-python dcnn22_ck+.py
+- python dcnn22_fer2013.py
+- python dcnn22_ck+.py
 
 ---
 
