@@ -39,8 +39,8 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
----
-## How to run
+
+-## How to run
 
 Follow the steps below to reproduce the experiments.
 
