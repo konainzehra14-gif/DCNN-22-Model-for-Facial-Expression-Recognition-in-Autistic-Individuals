@@ -11,7 +11,6 @@ Sad
 Surprise
 Neutral
 
-The pipeline also includes image preprocessing, face detection, and facial landmark detection to improve classification accuracy.
 ---
 
 ## 📊 Dataset Information
@@ -44,24 +43,24 @@ pip install -r requirements.txt
 
 Follow the steps below to reproduce the experiments.
 
-1. Clone the Repository
+# Clone the Repository
 git clone https://github.com/konainzehra14-gif/DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
 cd DCNN-22-Model-for-Facial-Expression-Recognition-in-Autistic-Individuals
-2. Install Required Libraries
+#  Install Required Libraries
 pip install -r requirements.txt
-3. Prepare Dataset
-
+# Prepare Dataset
 Download the datasets:
-
-FER2013 Dataset: https://www.kaggle.com/datasets/msambare/fer2013
-CK+ Dataset: http://www.jeffcohn.net/resources/
+# FER2013 Dataset: 
+https://www.kaggle.com/datasets/msambare/fer2013
+# CK+ Dataset: 
+http://www.jeffcohn.net/resources/
 Place the datasets in the directories of dataset
-4. Run Preprocessing
+# Run Preprocessing
 python preprocessing.py
-5. Train the Model
+# Train the Model
 python dcnn22_fer2013.py
-# or
 python dcnn22_ck+.py
+
 ---
 
 
@@ -70,10 +69,14 @@ python dcnn22_ck+.py
 The proposed system implements a Deep Convolutional Neural Network (DCNN-22) for Facial Expression Recognition (FER).
 The workflow consists of the following stages:
 
-Data Preprocessing: Facial images from the FER2013 and CK+ datasets are preprocessed, including resizing, normalization, and dataset preparation.
-Feature Extraction: DCNN-22 extracts hierarchical features from facial images.
-Model Training: The DCNN model is trained on labeled facial expression images to learn discriminative features for classification.
-Emotion Classification: The trained model predicts facial emotion classes (happiness, sadness, anger, surprise, fear, disgust, and neutral).
+# Data Preprocessing:
+Facial images from the FER2013 and CK+ datasets are preprocessed, including resizing, normalization, and dataset preparation.
+# Feature Extraction: 
+DCNN-22 extracts hierarchical features from facial images.
+# Model Training: 
+The DCNN model is trained on labeled facial expression images to learn discriminative features for classification.
+# Emotion Classification: 
+The trained model predicts facial emotion classes (happiness, sadness, anger, surprise, fear, disgust, and neutral).
 
 The architecture consists of multiple convolutional layers, pooling layers, and fully connected layers to enable automatic feature learning from facial images.
 
@@ -91,6 +94,7 @@ F1 Score
 Confusion Matrix
 
 Datasets are divided into training and testing sets to measure generalization performance. Experimental results demonstrate that the DCNN-22 model effectively learns facial emotion representations and achieves competitive performance on both datasets. 
+
 ---
 
 ## Reproducibility
