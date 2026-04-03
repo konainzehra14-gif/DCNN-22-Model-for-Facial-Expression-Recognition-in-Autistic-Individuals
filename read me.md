@@ -109,9 +109,9 @@ To ensure reproducibility:
 Researchers can reproduce the experiments by following the instructions provided in the "How to run" section.
 
 ## License & Contribution Guidelines
-- #### License:
+#### License:
 - This project is for academic and research purposes only. Dataset licenses belong to the original providers.
-- #### Contributions:
+#### Contributions:
 - Pull requests and suggestions for improvements are welcome for research purposes.
 
 ## Author
