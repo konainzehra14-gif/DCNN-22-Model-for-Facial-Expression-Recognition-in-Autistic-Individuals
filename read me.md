@@ -39,7 +39,7 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
----
+<!-- End of Requirements list --
 
 ## How to run
 
