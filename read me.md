@@ -79,20 +79,19 @@ The DCNN model is trained on labeled facial expression images to learn discrimin
 #### Emotion Classification: 
 The trained model predicts facial emotion classes (happiness, sadness, anger, surprise, fear, disgust, and neutral).
 
-The architecture consists of multiple convolutional layers, pooling layers, and fully connected layers to enable automatic feature learning from facial images.
 
 ## Evaluation
 
 The DCNN-22 model is evaluated using two benchmark facial expression datasets:
-1. FER2013 Dataset
-2. CK+ Dataset
+- FER2013 Dataset
+- CK+ Dataset
 
 Performance metrics include:
-1. Accuracy
-2. Precision
-3. Recall
-4. F1 Score
-5. Confusion Matrix
+-  Accuracy
+-  Precision
+-  Recall
+-  F1 Score
+-  Confusion Matrix
 
 Datasets are divided into training and testing sets to measure generalization performance. Experimental results demonstrate that the DCNN-22 model effectively learns facial emotion representations and achieves competitive performance on both datasets. 
 
