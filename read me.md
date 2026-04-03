@@ -36,12 +36,11 @@ The pipeline also includes image preprocessing, face detection, and facial landm
 ## ⚙️ Requirements
 
 Install dependencies using:
-
-```bash
 pip install -r requirements.txt
-<!-- End of Requirements list -->
 
-## How to run
+---
+
+## 📊 Dataset Information
 
 Follow the steps below to reproduce the experiments.
 
@@ -56,12 +55,7 @@ Download the datasets:
 
 FER2013 Dataset: https://www.kaggle.com/datasets/msambare/fer2013
 CK+ Dataset: http://www.jeffcohn.net/resources/
-
-Place the datasets in the following directory structure:
-
-dataset/
-   FER2013/
-   CK+/
+Place the datasets in the directories of dataset
 4. Run Preprocessing
 python preprocessing.py
 5. Train the Model
@@ -86,22 +80,20 @@ The architecture consists of multiple convolutional layers, pooling layers, and 
 ## Evaluation
 
 The DCNN-22 model is evaluated using two benchmark facial expression datasets:
-
 FER2013 Dataset
 CK+ Dataset
 
 Performance metrics include:
-
 Accuracy
 Precision
 Recall
 F1 Score
 Confusion Matrix
 
-Datasets are divided into training and testing sets to measure generalization performance.
-Experimental results demonstrate that the DCNN-22 model effectively learns facial emotion representations and achieves competitive performance on both datasets.
+Datasets are divided into training and testing sets to measure generalization performance. Experimental results demonstrate that the DCNN-22 model effectively learns facial emotion representations and achieves competitive performance on both datasets. 
+---
 
-Reproducibility
+## Reproducibility
 
 To ensure reproducibility:
 
@@ -112,9 +104,9 @@ Model parameters and architecture are defined in the code.
 
 Researchers can reproduce the experiments by following the instructions provided in the "How to run" section.
 
-License & Contribution Guidelines
+## License & Contribution Guidelines
 License: This project is for academic and research purposes only. Dataset licenses belong to the original providers.
 Contributions: Pull requests and suggestions for improvements are welcome for research purposes.
-Author
 
+## Author
 Konain Zehra
