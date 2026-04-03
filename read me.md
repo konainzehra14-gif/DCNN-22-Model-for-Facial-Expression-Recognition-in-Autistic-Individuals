@@ -40,7 +40,7 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 
-## How to Run
+**## How to Run**
 1. Download datasets from above links  
 2. Set dataset path in code  
 3. Run python files  
