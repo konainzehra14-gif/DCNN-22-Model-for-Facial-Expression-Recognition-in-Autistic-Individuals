@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Dataset Information
+## Steps
 
 Follow the steps below to reproduce the experiments.
 
