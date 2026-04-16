@@ -27,10 +27,11 @@ The model classifies facial expressions into seven categories:
 
 ## 💻 Code Files
 
-- `dcnn_ckplus.py` → Training and evaluation on CK+ dataset  
-- `dcnn_fer2013.py` → Training and evaluation on FER2013 dataset  
-- `preprocessing.py` → Image preprocessing, face detection, and landmark extraction   
----
+dcnn22_ckplus.py → Training and evaluation on CK+ dataset
+dcnn22_fer2013.py → Training and evaluation on FER2013 dataset
+preprocessing.py → Image preprocessing, face detection, and landmark extraction
+results-dcnn22-fer2013.py → Generates sample predictions for FER2013 dataset
+
 
 ## ⚙️ Requirements
 
@@ -60,8 +61,9 @@ python preprocessing.py
 #### Train the Model
 - python dcnn22_fer2013.py
 - python dcnn22_ck+.py
+#### Run Evaluation
+python results-dcnn22-fer2013.py
 
----
 
 
 ## Methodology
