@@ -115,5 +115,8 @@ Researchers can reproduce the experiments by following the instructions provided
 #### Contributions:
 - Pull requests and suggestions for improvements are welcome for research purposes.
 
+
 ## Author
-Konain Zehra
+Syeda Konain Zehra
+Department of Computer Science
+Fatima Jinnah Women University, Rawalpindi, Pakistan
